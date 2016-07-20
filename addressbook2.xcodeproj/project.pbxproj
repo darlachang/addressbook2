@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		09F48CF71CB0C1D500585F7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F48CF61CB0C1D500585F7D /* main.m */; };
+		09F48CFF1CB0C1E700585F7D /* addresscard.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F48CFE1CB0C1E700585F7D /* addresscard.m */; };
+		09F48D021CB0C63900585F7D /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F48D011CB0C63900585F7D /* AddressBook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		09F48CF31CB0C1D500585F7D /* addressbook2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = addressbook2; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F48CF61CB0C1D500585F7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09F48CFD1CB0C1E700585F7D /* addresscard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = addresscard.h; path = ../addresscard.h; sourceTree = "<group>"; };
+		09F48CFE1CB0C1E700585F7D /* addresscard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = addresscard.m; path = ../addresscard.m; sourceTree = "<group>"; };
+		09F48D001CB0C63900585F7D /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
+		09F48D011CB0C63900585F7D /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		09F48CF51CB0C1D500585F7D /* addressbook2 */ = {
 			isa = PBXGroup;
 			children = (
+				09F48CFD1CB0C1E700585F7D /* addresscard.h */,
+				09F48CFE1CB0C1E700585F7D /* addresscard.m */,
 				09F48CF61CB0C1D500585F7D /* main.m */,
+				09F48D001CB0C63900585F7D /* AddressBook.h */,
+				09F48D011CB0C63900585F7D /* AddressBook.m */,
 			);
 			path = addressbook2;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F48D021CB0C63900585F7D /* AddressBook.m in Sources */,
+				09F48CFF1CB0C1E700585F7D /* addresscard.m in Sources */,
 				09F48CF71CB0C1D500585F7D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +249,7 @@
 				09F48CFC1CB0C1D500585F7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
